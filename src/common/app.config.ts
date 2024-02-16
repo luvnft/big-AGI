@@ -8,23 +8,23 @@
  */
 export const Brand = {
   Title: {
-    Base: 'big-AGI',
+    Base: 'FREEAI',
     Common: (process.env.NODE_ENV === 'development' ? '[DEV] ' : '') + 'big-AGI',
   },
   Meta: {
     Description: 'Launch big-AGI to unlock the full potential of AI, with precise control over your data and models. Voice interface, AI personas, advanced features, and fun UX.',
-    SiteName: 'big-AGI | Precision AI for You',
+    SiteName: 'FREEAI | Precision AI for You',
     ThemeColor: '#32383E',
     TwitterSite: '@enricoros',
   },
   URIs: {
-    Home: 'https://big-agi.com',
+    Home: 'https://freeai.luvnft.com',
     // App: 'https://get.big-agi.com',
-    CardImage: 'https://big-agi.com/icons/card-dark-1200.png',
+    CardImage: 'https://freeai.luvnft.com/icons/card-dark-1200.png',
     OpenRepo: 'https://github.com/enricoros/big-agi',
     OpenProject: 'https://github.com/users/enricoros/projects/4',
-    SupportInvite: 'https://discord.gg/MkH4qj2Jp9',
-    // Twitter: 'https://www.twitter.com/enricoros',
+    SupportInvite: 'https://discord.com/channels/910051231437819914/shop',
+    // Twitter: 'https://www.twitter.com/luvnft',
     PrivacyPolicy: 'https://big-agi.com/privacy',
   },
 };

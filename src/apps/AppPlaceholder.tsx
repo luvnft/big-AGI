@@ -7,7 +7,7 @@ import { useRouterRoute } from '~/common/app.routes';
 
 
 /**
- * https://github.com/enricoros/big-AGI/issues/299
+ * https://github.com/enricoros/luvnft/issues/299
  */
 export function AppPlaceholder(props: { text?: string }) {
 

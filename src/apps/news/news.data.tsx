@@ -198,8 +198,8 @@ export const NewsItems: NewsItem[] = [
       { text: <><B>Single-Tab</B> mode, enhances data integrity and prevents DB corruption</> },
       { text: <>Updated Ollama (v0.1.17) and OpenRouter models</> },
       { text: <>More: fixed ⌘ shortcuts on Mac</> },
-      { text: <><Link href='https://big-agi.com'>Website</Link>: official downloads</> },
-      { text: <>Easier Vercel deployment, documented <Link href='https://github.com/enricoros/big-AGI/issues/276#issuecomment-1858591483'>network troubleshooting</Link></>, dev: true },
+      { text: <><Link href='https://freeai.luvnft.com'>Website</Link>: official downloads</> },
+      { text: <>Easier Vercel deployment, documented <Link href='https://github.com/enricoros/luvnft/issues/276#issuecomment-1858591483'>network troubleshooting</Link></>, dev: true },
     ],
   },
   {

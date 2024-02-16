@@ -40,7 +40,7 @@ export const useAttachments = (enableLoadURLs: boolean) => {
 
   const attachAppendDataTransfer = React.useCallback((dt: DataTransfer, method: AttachmentSourceOriginDTO, attachText: boolean): 'as_files' | 'as_url' | 'as_text' | false => {
 
-    // https://github.com/enricoros/big-AGI/issues/286
+    // https://github.com/enricoros/luvnft/issues/286
     const textHtml = dt.getData('text/html') || '';
     const heuristicIsExcel = textHtml.includes('"urn:schemas-microsoft-com:office:excel"');
     // noinspection HttpUrlsUsage
@@ -119,7 +119,7 @@ export const useAttachments = (enableLoadURLs: boolean) => {
     // loop on all the clipboard items
     for (const clipboardItem of clipboardItems) {
 
-      // https://github.com/enricoros/big-AGI/issues/286
+      // https://github.com/enricoros/luvnft/issues/286
       const textHtml = clipboardItem.types.includes('text/html') ? await clipboardItem.getType('text/html').then(blob => blob.text()) : '';
       const heuristicBypassImage = textHtml.startsWith('<table ');
 

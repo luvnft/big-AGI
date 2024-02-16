@@ -10,7 +10,7 @@ interface DrawIdea {
 
 /**
  * The following are drawing ideas, offered to people.
- * Generated with: https://github.com/enricoros/big-AGI/issues/311#issuecomment-1909473441
+ * Generated with: https://github.com/enricoros/luvnft/issues/311#issuecomment-1909473441
  */
 const allIdeas: DrawIdea[] = [
   { author: 'Beatriz', prompt: 'An intricate book nook with miniature worlds nestled between classic tomes, casting a magical glow over a cozy reading corner.', short: 'Magical book nook miniature', score: 46 },
